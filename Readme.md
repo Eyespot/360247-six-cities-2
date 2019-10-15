@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов» [![Build status][travis-image]][travis-url]
 
 * Студент: [Алексей Марков](https://up.htmlacademy.ru/react/2/user/360247).
-* Наставник: `Неизвестно`.
+* Наставник: [Даниил Крохмаль](https://htmlacademy.ru/profile/id502911).
 
 ---
 
