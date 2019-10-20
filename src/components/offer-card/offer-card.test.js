@@ -13,7 +13,7 @@ it(`OfferCard component renders correctly after relaunch`, () => {
     isBookmarked: true,
   };
 
-  const onClick = ()=>{};
+  const onClick = () => {};
 
   const tree = renderer
     .create(<OfferCard cardData={mock} cardTitleOnClick={onClick} />)

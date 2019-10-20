@@ -42,7 +42,7 @@ const OfferCard = ({cardData, cardTitleOnClick}) => {
       </div>
 
       <h2 className="place-card__name">
-        <a href="#" id={`offer-card-title`} onClick={cardTitleOnClick}>{cardData.title}</a>
+        <a href="#" id="offer-card-title" onClick={cardTitleOnClick}>{cardData.title}</a>
       </h2>
 
       <p className="place-card__type">{cardData.type}</p>

@@ -50,7 +50,7 @@ const OfferList = () => {
     }
   ];
 
-  const cardTitleOnClick = (event)=>{
+  const cardTitleOnClick = (event) => {
     event.preventDefault();
   };
 
