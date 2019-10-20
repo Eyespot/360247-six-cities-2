@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import OfferList from "./../offer-list/offer-list";
 
-const ScreenMain = ({cardsData}) => {
+const ScreenMain = () => {
 
   return <div className="page page--gray page--main">
     <header className="header">
@@ -92,7 +91,7 @@ const ScreenMain = ({cardsData}) => {
                 <option className="places__option" value="top-rated">Top rated first</option>
               </select>
             </form>
-            <OfferList offersData={cardsData} />
+            <OfferList />
           </section>
           <div className="cities__right-section">
             <section className="cities__map map" />
@@ -101,18 +100,6 @@ const ScreenMain = ({cardsData}) => {
       </div>
     </main>
   </div>;
-};
-
-ScreenMain.propTypes = {
-  cardsData: PropTypes.arrayOf(PropTypes.exact({
-    title: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    type: PropTypes.oneOf([`Apartment`, `Private room`]).isRequired,
-    price: PropTypes.number.isRequired,
-    rating: PropTypes.number.isRequired,
-    isPremium: PropTypes.bool,
-    isBookmarked: PropTypes.bool.isRequired
-  }))
 };
 
 export default ScreenMain;
