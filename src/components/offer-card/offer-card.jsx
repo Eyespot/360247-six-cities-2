@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const OfferCard = ({cardData}) => {
+const OfferCard = ({cardData, cardTitleOnClick}) => {
 
   return <article className="cities__place-card place-card">
     {cardData.isPremium &&
@@ -42,7 +42,7 @@ const OfferCard = ({cardData}) => {
       </div>
 
       <h2 className="place-card__name">
-        <a href="#">{cardData.title}</a>
+        <a href="#" id={`offer-card-title`} onClick={cardTitleOnClick}>{cardData.title}</a>
       </h2>
 
       <p className="place-card__type">{cardData.type}</p>
@@ -59,7 +59,9 @@ OfferCard.propTypes = {
     rating: PropTypes.number.isRequired,
     isPremium: PropTypes.bool,
     isBookmarked: PropTypes.bool.isRequired
-  })
+  }),
+
+  cardTitleOnClick: PropTypes.func.isRequired
 };
 
 export default OfferCard;

@@ -50,8 +50,12 @@ const OfferList = () => {
     }
   ];
 
+  const cardTitleOnClick = (event)=>{
+    event.preventDefault();
+  };
+
   const offers = mockCardsData.map((offer, index) => (
-    <OfferCard key={index} cardData={offer} />
+    <OfferCard key={index} cardData={offer} cardTitleOnClick={cardTitleOnClick} />
   ));
 
   return <div className="cities__places-list places__list tabs__content">

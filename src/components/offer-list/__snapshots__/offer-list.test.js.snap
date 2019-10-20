@@ -95,6 +95,8 @@ exports[`OfferList component renders correctly after relaunch 1`] = `
       >
         <a
           href="#"
+          id="offer-card-title"
+          onClick={[Function]}
         >
           Beautiful & luxurious apartment at great location
         </a>
@@ -190,6 +192,8 @@ exports[`OfferList component renders correctly after relaunch 1`] = `
       >
         <a
           href="#"
+          id="offer-card-title"
+          onClick={[Function]}
         >
           Wood and stone place
         </a>
@@ -285,6 +289,8 @@ exports[`OfferList component renders correctly after relaunch 1`] = `
       >
         <a
           href="#"
+          id="offer-card-title"
+          onClick={[Function]}
         >
           Canal View Prinsengracht
         </a>
@@ -387,6 +393,8 @@ exports[`OfferList component renders correctly after relaunch 1`] = `
       >
         <a
           href="#"
+          id="offer-card-title"
+          onClick={[Function]}
         >
           Nice, cozy, warm big bed apartment
         </a>
@@ -482,6 +490,8 @@ exports[`OfferList component renders correctly after relaunch 1`] = `
       >
         <a
           href="#"
+          id="offer-card-title"
+          onClick={[Function]}
         >
           Wood and stone place
         </a>

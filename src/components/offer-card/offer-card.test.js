@@ -13,8 +13,10 @@ it(`OfferCard component renders correctly after relaunch`, () => {
     isBookmarked: true,
   };
 
+  const onClick = ()=>{};
+
   const tree = renderer
-    .create(<OfferCard cardData={mock} />)
+    .create(<OfferCard cardData={mock} cardTitleOnClick={onClick} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

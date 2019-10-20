@@ -174,7 +174,7 @@ exports[`App component renders correctly after relaunch 1`] = `
             <span
               className="places__sorting-caption"
             >
-              Sort by
+              Sort by 
             </span>
             <span
               className="places__sorting-type"
@@ -343,6 +343,8 @@ exports[`App component renders correctly after relaunch 1`] = `
                 >
                   <a
                     href="#"
+                    id="offer-card-title"
+                    onClick={[Function]}
                   >
                     Beautiful & luxurious apartment at great location
                   </a>
@@ -438,6 +440,8 @@ exports[`App component renders correctly after relaunch 1`] = `
                 >
                   <a
                     href="#"
+                    id="offer-card-title"
+                    onClick={[Function]}
                   >
                     Wood and stone place
                   </a>
@@ -533,6 +537,8 @@ exports[`App component renders correctly after relaunch 1`] = `
                 >
                   <a
                     href="#"
+                    id="offer-card-title"
+                    onClick={[Function]}
                   >
                     Canal View Prinsengracht
                   </a>
@@ -635,6 +641,8 @@ exports[`App component renders correctly after relaunch 1`] = `
                 >
                   <a
                     href="#"
+                    id="offer-card-title"
+                    onClick={[Function]}
                   >
                     Nice, cozy, warm big bed apartment
                   </a>
@@ -730,6 +738,8 @@ exports[`App component renders correctly after relaunch 1`] = `
                 >
                   <a
                     href="#"
+                    id="offer-card-title"
+                    onClick={[Function]}
                   >
                     Wood and stone place
                   </a>
