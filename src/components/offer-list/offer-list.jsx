@@ -5,7 +5,7 @@ import OfferCard from "../offer-card/offer-card";
 const OfferList = ({offersData}) => {
 
   const offers = offersData.map((offer, index) => (
-    <OfferCard key={`offer card ` + index} cardData={offer} />
+    <OfferCard key={index} cardData={offer} />
   ));
 
   return <div className="cities__places-list places__list tabs__content">
